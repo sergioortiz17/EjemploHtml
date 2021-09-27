@@ -14,7 +14,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-        "build": {
+        "build": {  // Aca estan todas las configuraciones para cuando va a compilar
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/front",
@@ -26,8 +26,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "styles": [ //Aca angular especifica la ruta de los estilos 
+              "src/styles.css" // si agrego otro archivo de estilos lo debo agregar aca
             ],
             "scripts": []
           },

@@ -2,6 +2,6 @@
 h1 { 
     
     color: blue; 
-    text-align: center; 
-    font-family: 'segoe ui';
+    text-align: center; /*centralizada */
+    font-family: 'segoe ui', Tahoma, Arial, Helvetica; /*busca una y si no la encuentra busca la otra */
 }
